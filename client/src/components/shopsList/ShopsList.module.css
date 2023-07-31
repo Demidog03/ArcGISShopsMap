@@ -1,0 +1,25 @@
+.checkAllShopsBtn{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    border: none;
+    padding: 15px 20px;
+    background-color: #393646;
+    color: #F4EEE0;
+    font-weight: bold;
+    cursor: pointer;
+    transition:
+            background-color 0.3s ease-out,
+            color 0.3s ease-out,
+            outline 0.3s ease-out;
+}
+
+.checkAllShopsBtn:hover{
+    background-color: #F4EEE0;
+    color: #393646;
+    outline: 1px solid #393646;
+}
+
+
