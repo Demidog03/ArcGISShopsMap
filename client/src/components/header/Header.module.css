@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 461px) {
+@media screen and (max-width: 501px) {
     .header{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 1fr);
