@@ -1,6 +1,6 @@
 .checkAllShopsBtn{
-    position: absolute;
-    bottom: 50px;
+    position: fixed;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 9999;
@@ -10,6 +10,7 @@
     color: #F4EEE0;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 0 0 15px 5px #F4EEE0;
     transition:
             background-color 0.3s ease-out,
             color 0.3s ease-out,

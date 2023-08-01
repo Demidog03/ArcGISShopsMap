@@ -82,10 +82,12 @@
         grid-template-rows: repeat(3, 1fr);
         justify-items: center;
         align-items: center;
+        row-gap: 20px;
     }
     .title{
         grid-column: 1/2;
         grid-row: 1/2;
+        font-size: 1.7rem
     }
     .header nav{
         grid-column: 1/2;
@@ -98,9 +100,14 @@
     }
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 398px) {
      .title{
          font-size: 1.5rem
+     }
+}
+@media screen and (max-width: 325px) {
+     .title{
+         font-size: 1.4rem
      }
 }
 

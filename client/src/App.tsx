@@ -6,7 +6,6 @@ import ShopsPage from "./pages/shopsPage/ShopsPage.tsx";
 import Header from "./components/header/Header.tsx";
 import CartPage from "./pages/cartPage/CartPage.tsx";
 
-
 function App() {
   return (
     <>

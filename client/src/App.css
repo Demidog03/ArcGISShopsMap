@@ -25,7 +25,7 @@ a{
 
 .map-view {
   width: 100dvw;
-  height: calc(100dvh - 76px);
+  height: calc(100dvh - 182px);
 }
 
 .shopInfo-wrapper{
